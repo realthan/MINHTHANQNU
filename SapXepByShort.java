@@ -30,6 +30,7 @@ public class SapXepByShort {
              a[i] = scanner.nextInt();
             }
         }
+         // Nhập phần tử của chuỗi
         String str[] = new String[n];
           System.out.println("Nhập chuỗi");
         for ( int i = 0 ; i < n; i++){
@@ -44,5 +45,4 @@ public class SapXepByShort {
         System.out.println("Sorted string array : "+Arrays.toString(str));
     
 }
-    
 }
